@@ -1,6 +1,6 @@
 import React from 'react';
 import './Team.css';
-import { Card, Button} from 'react-bootstrap';
+import { Card } from 'react-bootstrap';
 import image from '../../assets/images/one.jpg';
 import LazyLoad from 'react-lazyload';
 

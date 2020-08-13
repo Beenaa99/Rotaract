@@ -39,7 +39,7 @@ const RightNav = ({ open }) => {
     
       <Link to='/' style={{ textDecoration: 'none', color: 'white'}}><li>Home</li></Link>
       <Link to='/team' style={{ textDecoration: 'none', color: 'white'}}><li>Team</li></Link>
-      <li>Projects</li>
+      <Link  to='/projects' style={{ textDecoration: 'none', color: 'white'}}><li>Projects</li></Link>
       <li>Contact</li>
     </Ul>
   )

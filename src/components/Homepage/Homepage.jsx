@@ -11,19 +11,19 @@ export default function Homepage() {
         <div className='caraousel'>
         <motion.div>
         <motion.p
-        animate={{ x: 100, y:100, opacity:1}}
-        initial={{opacity: 0, y:100,x: -100}}
+        animate={{ x: 100, y:200, opacity:1}}
+        initial={{opacity: 0, y:200,x: -100}}
         transition={{ ease: "easeOut", duration: 2, delay: 1}}
         className='caption'>
         Unity.</motion.p>
         <motion.p
-        animate={{ x: 100, y: 200, opacity:1}}
-        initial={{opacity: 0, y:200, x: -100}}
+        animate={{ x: 100, y: 300, opacity:1}}
+        initial={{opacity: 0, y:300, x: -100}}
         transition={{ ease: "easeOut", duration: 2, delay: 1.3}}
         className='caption'>
         Empathy.</motion.p>
-        <motion.p animate={{ x: 100, y: 300, opacity:1 }}
-        initial={{opacity: 0, y:300, x: -100}}
+        <motion.p animate={{ x: 100, y: 400, opacity:1 }}
+        initial={{opacity: 0, y:400, x: -100}}
         transition={{ ease: "easeOut", duration: 2, delay: 1.6}}
         className='caption'>
         Teamwork.</motion.p>'
@@ -59,13 +59,11 @@ export default function Homepage() {
     </div>
     </div>
             </div>
-            <motion.div animate={{ y: 29 }}
-            initial={{y : -100}}
-            transition={{ ease: "easeOut", duration: 1, delay: 2}} 
+            <div
             className='join'>
             Join now
-            </motion.div>
-            <div className='footer'>Footer</div>
+            </div>
+            <div className='footer'></div>
         </div>
     )
 }
