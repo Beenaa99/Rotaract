@@ -3,7 +3,9 @@ import Navbar from './components/Navbar/Navbar.jsx';
 import './App.css';
 import Homepage from './components/Homepage/Homepage.jsx';
 import Team from './components/Team/Team.jsx';
-import Project from './components/Project/Project.jsx';
+
+import Projectr from './components/Project/projectFp.jsx';
+
 import './components/try/grid.css'
 import {
   BrowserRouter as Router,
@@ -11,6 +13,8 @@ import {
   Route,
 
 } from "react-router-dom";
+
+
 
 
 
@@ -29,7 +33,9 @@ function App() {
       <Team/>
     </Route>
     <Route path="/projects">
-    <Project/>
+    <Projectr/>
+
+    
     </Route>
     
   </Switch>
