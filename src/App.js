@@ -4,8 +4,8 @@ import './App.css';
 import Homepage from './components/Homepage/Homepage.jsx';
 import Team from './components/Team/Team.jsx';
 
-//import Projectr from './components/Project/projectFp.jsx';
-import Cards from './components/Project/cards.jsx';
+import Projectr from './components/Project/projectFp.jsx';
+
 import './components/try/grid.css'
 import {
   BrowserRouter as Router,
@@ -13,6 +13,7 @@ import {
   Route,
 
 } from "react-router-dom";
+
 
 
 
@@ -32,7 +33,9 @@ function App() {
       <Team/>
     </Route>
     <Route path="/projects">
-    <Cards/>
+    <Projectr/>
+
+    
     </Route>
     
   </Switch>
