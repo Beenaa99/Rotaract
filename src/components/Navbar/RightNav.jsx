@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import './style.css';
+
 import { Link } from 'react-router-dom';
 
 const Ul = styled.ul`
@@ -11,7 +11,7 @@ const Ul = styled.ul`
   flex-flow: row nowrap;
   li {
     text-decoration: none;
-    padding: 20vh 20px;
+    padding:20px 20px;
   }
   @media (max-width: 768px) {
     flex-flow: column nowrap;
@@ -37,10 +37,10 @@ const RightNav = ({ open }) => {
   return (
     <Ul open={open}>
     
-      <Link to='/' style={{ textDecoration: 'none', color: 'white'}}><li>Home</li></Link>
+      <Link to='/' style={{ textDecoration: 'none', color: '#ddd'}}><li>Home</li></Link>
       <Link to='/team' style={{ textDecoration: 'none', color: 'white'}}><li>Team</li></Link>
       <Link  to='/projects' style={{ textDecoration: 'none', color: 'white'}}><li>Projects</li></Link>
-      <li>Contact</li>
+      <Link to='/form' style={{ textDecoration: 'none', color: 'white'}}><li>Contact</li></Link>
     </Ul>
   )
 }

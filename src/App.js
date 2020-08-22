@@ -1,48 +1,26 @@
 import React from 'react';
-import Navbar from './components/Navbar/Navbar.jsx';
-import './App.css';
-import Homepage from './components/Homepage/Homepage.jsx';
-import Team from './components/Team/Team.jsx';
+import Cards from './components/Project/Cards';
 
-import Projectr from './components/Project/projectFp.jsx';
-
-import './components/try/grid.css'
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-
-} from "react-router-dom";
-
-
-
-
-
+import Footer from './components/Footer/Footer';
+import Navbar from './components/Navbar/Navbar';
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import Home from './components/Home/Home';
+import Team from './components/Teams/Team';
+import ContactForm from './components/Form/ContactForm';
 
 function App() {
-  return (
-
+  return(
     <Router>
-    <div className="App">
     <Navbar/>
     <Switch>
-    <Route exact path="/">
-      <Homepage/>
-    </Route>
-    <Route path="/team">
-      <Team/>
-    </Route>
-    <Route path="/projects">
-    <Projectr/>
-
-    
-    </Route>
-    
-  </Switch>
-  
-</div>
+    <Route exact path="/"><Home/></Route>
+    <Route path="/team"><Team/></Route>
+    <Route path="/projects"><Cards/></Route>
+    <Route path="/form"><ContactForm/></Route>
+    </Switch>
+    <Footer/>
     </Router>
-  );
+  )
+  
 }
-
 export default App;

@@ -1,0 +1,10 @@
+.formBody{
+    padding: 5vw 24vw 5vw 24vw;
+
+    font-family: 'Montserrat', sans-serif;
+    @media only screen and (max-width: 640px) {
+        
+        padding: 5vw 10vw 5vw 10vw;
+         
+     }
+}

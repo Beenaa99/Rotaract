@@ -1,0 +1,36 @@
+.main{
+    font-family: 'Noto Serif JP', serif;
+}
+
+.back{
+    height: 80vw;
+    width: auto;
+    background-image: url('../../assets/images/back.png');
+    color: rgb(158, 158, 155);
+    font-family: 'Noto Serif JP', serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:43vw;
+    font-size: 5vw;
+    @media only screen and (max-width: 640px) {
+       color: rgba(0,0,0,0.1);
+       background-image: url('../../assets/images/back.jpeg');
+       width: 100%;
+       height: auto;
+       background-size: cover;
+       
+        
+    }
+    
+}
+.container{
+    padding: 1rem !important;
+    font-family: 'Montserrat', sans-serif;
+    .row{
+        padding: 1.5rem;
+        padding-bottom:  3rem;
+       .col{
+        margin-left: 2rem;
+       }    
+    }
+}
