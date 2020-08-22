@@ -1,0 +1,63 @@
+.cardBody {
+    background-color: #f1f1f1;
+  width:300px;
+  height: auto;
+  
+  text-align: center;
+  color: #111;
+  font-size: 15px;
+  box-shadow: 7px 7px 8px 0px rgb(158, 156, 156);
+  padding: 2%;
+}
+
+.header{
+  background-color: #111;
+  height: 15vw;
+  top: -10vw;
+  z-index: -1;
+}
+.des{
+    width:450px;
+    height: auto;
+  
+    text-align: left;
+    color: #111;
+    font-size: 18px;
+  
+    padding: 2%;
+
+}
+.imgg{
+    
+    width:40%;
+    height: auto;
+    text-align: center;
+    color: #111;
+    font-size: 18px;
+  }
+.top{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+    padding: 1%;
+    width: 97%;
+    margin-top: 2%;
+
+}
+.below{
+  background-color: rgb(212, 209, 209);
+  padding-top: 2%;
+}
+.holder{
+    top: 3vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    position: relative;
+    height: auto;
+    padding: 1%;
+    width: 97%;
+   
+   
+}
